@@ -1,0 +1,58 @@
+.App {
+  color: black;
+  background: rgb(190, 173, 173);
+  margin: 50px 300 px;
+  display: flex;
+  height: 100vh;
+}
+
+.mainInfo {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .title {
+   display: flex;
+   justify-content: space-evenly;
+   width: 100%;
+ }
+
+ .pokemonImage {
+   width: 500px;
+   height: 500px;
+ }
+
+.information {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card {
+  color: black;
+  background: #3EBDD0;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  padding: 10px; 
+  }
+
+.cardData {
+  width: 100px;
+}
+
+.search {
+  height: 20px;
+  width: 300px;
+}
+
+label {
+  color: white;
+  
+}
